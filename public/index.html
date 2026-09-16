@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S. Yogesh Kumar | Data Analyst & BI Portfolio</title>
+  
+  <!-- SEO & Metadata -->
+  <meta name="description" content="Official Portfolio of S. Yogesh Kumar - Aspiring Data Analyst & BI Specialist. Skilled in Python, MySQL, Power BI, Tableau, Excel, NumPy, Pandas, and Exploratory Data Analysis." />
+  <meta name="keywords" content="S Yogesh Kumar, Data Analyst, Business Intelligence, Python Developer, SQL, Power BI, Tableau, Excel, EDA, Chennai Data Analyst, Fresher Data Analyst" />
+  <meta name="author" content="S. Yogesh Kumar" />
+  <meta property="og:title" content="S. Yogesh Kumar | Data Analyst Portfolio" />
+  <meta property="og:description" content="Explore data analysis projects, BI dashboards, technical skills, and analytics workflows by S. Yogesh Kumar." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#080C15" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='18' y1='20' x2='18' y2='10'></line><line x1='12' y1='20' x2='12' y2='4'></line><line x1='6' y1='20' x2='6' y2='14'></line></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Background Data Particle Canvas & Ambient Glows -->
+  <canvas id="particles-canvas"></canvas>
+  <div class="bg-ambient-glow ambient-glow-1"></div>
+  <div class="bg-ambient-glow ambient-glow-2"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#hero" class="brand-logo" aria-label="Home">
+        <span class="brand-badge">YK</span>
+        <span>Yogesh<span style="color: var(--accent-blue);">.data</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Technical Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#visualizations" class="nav-link">Visualizations</a></li>
+          <li><a href="#workflow" class="nav-link">Workflow</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="btn btn-secondary" style="padding: 0.5rem 1.1rem; font-size: 0.85rem;">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         1. HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <!-- Hero Text Details -->
+        <div class="hero-content">
+          <div class="hero-badge-container">
+            <span class="status-pill">
+              <span class="status-dot"></span>
+              Open to Data Analyst & BI Opportunities
+            </span>
+            <span class="tag-mini font-mono" style="border-color: rgba(56, 189, 248, 0.25);">MBA • Finance & Analytics</span>
+          </div>
+
+          <h1 class="hero-name">S. YOGESH KUMAR</h1>
+
+          <div class="hero-title-typing">
+            <span id="typing-text"></span>
+            <span class="cursor"></span>
+          </div>
+
+          <p class="hero-bio">
+            Analytical aspiring Data Analyst with an <strong>MBA in Finance & Analytics from SRM University</strong> (8.6 CGPA) and <strong>B.Com in Computer Applications from Thiagarajar College</strong> (8.1 CGPA). Proficient in Python (NumPy, Pandas), MySQL, Power BI, Tableau, and Advanced Excel modeling. Hands-on industry background in maritime logistics operations and statutory tariff auditing from DBGT Pvt Ltd. Focused on transforming complex operational data into actionable business intelligence and automated decision systems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="assets/docs/Yogesh_Kumar_Resume.pdf" download="S_Yogesh_Kumar_Resume.pdf" class="btn btn-primary" id="downloadResumeHeroBtn">
+              <i data-lucide="download"></i> Download Resume
+            </a>
+            <button class="btn btn-secondary open-resume-modal" id="viewResumeHeroBtn">
+              <i data-lucide="file-text"></i> View Resume
+            </button>
+            <a href="#contact" class="btn btn-outline-emerald">
+              <i data-lucide="mail"></i> Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/yogesh-kumar-734a56238" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://github.com/yogeshkumar0503" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+              <i data-lucide="github"></i>
+            </a>
+            <a href="mailto:yogeshkumar18503@gmail.com" class="social-icon-btn" aria-label="Send Email">
+              <i data-lucide="mail"></i>
+            </a>
+            <a href="tel:6381318721" class="social-icon-btn" aria-label="Call Direct">
+              <i data-lucide="phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Executive Telemetry Console -->
+        <div class="hero-telemetry-panel">
+          <div class="telemetry-header">
+            <div class="window-controls">
+              <span class="window-dot dot-red"></span>
+              <span class="window-dot dot-yellow"></span>
+              <span class="window-dot dot-green"></span>
+            </div>
+            <div class="telemetry-title">
+              <i data-lucide="terminal" style="width: 14px; height: 14px; color: var(--accent-blue);"></i>
+              <span>candidate_telemetry.sql</span>
+            </div>
+            <div class="live-pill">
+              <span class="live-indicator"></span>
+              <span>VERIFIED</span>
+            </div>
+          </div>
+
+          <div class="telemetry-body">
+            <!-- Query representation -->
+            <div class="telemetry-query">
+              <span class="code-keyword">SELECT</span> candidate, education, core_stack, status<br />
+              <span class="code-keyword">FROM</span> analytics_talent_pool<br />
+              <span class="code-keyword">WHERE</span> candidate = <span class="code-str">'S. YOGESH KUMAR'</span>;
+            </div>
+
+            <!-- Executive Metric Spec Grid -->
+            <div class="telemetry-specs">
+              <div class="spec-row">
+                <span class="spec-label">DEGREE & CGPA</span>
+                <span class="spec-val">MBA (Finance & Analytics) • <strong style="color: var(--accent-blue);">8.6 CGPA</strong></span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">INSTITUTION</span>
+                <span class="spec-val">SRM Institute of Science and Technology (KTR)</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">UNDERGRADUATE</span>
+                <span class="spec-val">B.Com (Computer Applications) • 8.1 CGPA</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">CORE TOOLSET</span>
+                <div class="telemetry-badges">
+                  <span class="badge-chip">Python</span>
+                  <span class="badge-chip">MySQL</span>
+                  <span class="badge-chip">Pandas</span>
+                  <span class="badge-chip">NumPy</span>
+                  <span class="badge-chip">Power BI</span>
+                  <span class="badge-chip">Tableau</span>
+                  <span class="badge-chip">Adv. Excel</span>
+                </div>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">INDUSTRY EXPOSURE</span>
+                <span class="spec-val">DBGT Pvt Ltd • Terminal Logistics & Tariff Compliance</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">AVAILABILITY</span>
+                <span class="spec-val" style="color: #34D399; font-weight: 600;">
+                  <i data-lucide="check-circle" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle;"></i> Immediate Entry-Level Hire
+                </span>
+              </div>
+            </div>
+
+            <!-- Mini Telemetry Footer -->
+            <div class="telemetry-footer">
+              <div class="telemetry-stat">
+                <span class="stat-num">100%</span>
+                <span class="stat-lbl">Resume Verified</span>
+              </div>
+              <div class="telemetry-stat">
+                <span class="stat-num">08+</span>
+                <span class="stat-lbl">Certifications</span>
+              </div>
+              <div class="telemetry-stat">
+                <span class="stat-num">1,000+</span>
+                <span class="stat-lbl">Operations Led</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. ANALYTICS SNAPSHOT (KPI SUMMARY)
+         ========================================================================== -->
+    <section id="snapshot" class="container" style="padding-top: 1rem; padding-bottom: 3rem;">
+      <div class="snapshot-grid">
+        <div class="glass-card kpi-card">
+          <div class="kpi-header">
+            <div class="kpi-icon">
+              <i data-lucide="award"></i>
+            </div>
+            <span class="kpi-badge">SRM KTR</span>
+          </div>
+          <div class="kpi-value counter-val" data-target="8.6" data-decimal="true" data-suffix=" CGPA">8.6 CGPA</div>
+          <div class="kpi-label">MBA Academic Standing</div>
+          <div class="kpi-subtext">Finance & Analytics Specialization</div>
+        </div>
+
+        <div class="glass-card kpi-card" style="border-left-color: var(--accent-indigo);">
+          <div class="kpi-header">
+            <div class="kpi-icon" style="color: var(--accent-indigo); background: rgba(99, 102, 241, 0.1);">
+              <i data-lucide="code-2"></i>
+            </div>
+            <span class="kpi-badge">Engineered</span>
+          </div>
+          <div class="kpi-value counter-val" data-target="2" data-decimal="false" data-suffix=" Systems">02 Systems</div>
+          <div class="kpi-label">Core Applied Projects</div>
+          <div class="kpi-subtext">Python OOP & Database Records</div>
+        </div>
+
+        <div class="glass-card kpi-card" style="border-left-color: var(--accent-amber);">
+          <div class="kpi-header">
+            <div class="kpi-icon" style="color: var(--accent-amber); background: rgba(245, 158, 11, 0.1);">
+              <i data-lucide="check-circle-2"></i>
+            </div>
+            <span class="kpi-badge">Verified</span>
+          </div>
+          <div class="kpi-value counter-val" data-target="8" data-decimal="false" data-suffix="+ Certifications">08+ Certifications</div>
+          <div class="kpi-label">Technical Certifications</div>
+          <div class="kpi-subtext">Login 360, FIIT, Great Learning, Forage</div>
+        </div>
+
+        <div class="glass-card kpi-card" style="border-left-color: var(--accent-emerald);">
+          <div class="kpi-header">
+            <div class="kpi-icon" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1);">
+              <i data-lucide="users"></i>
+            </div>
+            <span class="kpi-badge">Organized</span>
+          </div>
+          <div class="kpi-value counter-val" data-target="1000" data-decimal="false" data-suffix="+ Participants">1000+ Participants</div>
+          <div class="kpi-label">Events & Operations Led</div>
+          <div class="kpi-subtext">Intra-College Sports & Cultural Fests</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. ABOUT ME
+         ========================================================================== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="user" style="width: 14px; height: 14px;"></i> Profile Overview</span>
+          <h2 class="section-title">Bridging Business Acumen & Technical Analytics</h2>
+          <p class="section-desc">A fresher data analyst blending commercial foundations with modern data engineering and visualization.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <p>
+              I am an analytical and motivated aspiring Data Analyst currently pursuing my <strong>MBA in Finance & Analytics at SRM University, Chennai</strong> (CGPA 8.6), having previously completed my <strong>B.Com in Computer Applications at Thiagarajar College, Madurai</strong> (CGPA 8.1).
+            </p>
+            <p>
+              My academic journey provides me with a distinctive edge: I understand both the <em>business economics</em> that drive executive decisions and the <em>technical toolchains</em> required to clean, query, and visualize high-dimensional data. Whether implementing object-oriented Python applications, querying complex MySQL databases, or engineering automated Excel workbooks with XLOOKUP and dynamic pivot models, my goal is always to convert raw ambiguity into structured clarity.
+            </p>
+            <div class="highlight-box">
+              "Data is not just numbers in tables; it is the pulse of business operations. My passion lies in finding patterns, automating calculations, and communicating actionable insights that optimize performance."
+            </div>
+            <p>
+              During my summer internship at <strong>DBGT Pvt Ltd (Thoothukudi Container Terminal)</strong>, I gained hands-on experience in terminal logistics and audited Terminal Handling Charges (THC) against central government tariffs for accurate compliance. I am actively seeking an entry-level Data Analyst, BI Analyst, or Reporting Analyst role to deliver tangible impact from day one.
+            </p>
+          </div>
+
+          <div class="glass-card about-features-card">
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i data-lucide="zap" style="color: var(--accent-blue); width: 20px; height: 20px;"></i> Core Analytical Strengths
+            </h3>
+
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <i data-lucide="database"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Data Cleaning & EDA</h4>
+                <p>Systematic handling of nulls, duplicates, data types, and outlier detection using Pandas, NumPy, and SQL queries.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon-box" style="background: rgba(56, 189, 248, 0.15); color: var(--accent-blue);">
+                <i data-lucide="pie-chart"></i>
+              </div>
+              <div class="feature-content">
+                <h4>BI Dashboard Development</h4>
+                <p>Translating business questions into interactive visual narratives in Power BI, Tableau, and Advanced Excel.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon-box" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald);">
+                <i data-lucide="calculator"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Quantitative & Statistical Rigor</h4>
+                <p>Descriptive statistics, distribution analysis, variance tracking, and tariff/rental charge calculation modeling.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon-box" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber);">
+                <i data-lucide="target"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Continuous Learning & Prompt Engineering</h4>
+                <p>Certified in Prompt Engineering and Project Management to accelerate analytics workflows and code delivery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. TECHNICAL SKILLS
+         ========================================================================== -->
+    <section id="skills" style="background: rgba(13, 21, 39, 0.3);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="layers" style="width: 14px; height: 14px;"></i> Tech Stack</span>
+          <h2 class="section-title">Categorized Technical Proficiencies</h2>
+          <p class="section-desc">Grounded strictly in certified competencies and real project applications. No arbitrary percentages.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs-container">
+          <button class="filter-btn skill-filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn skill-filter-btn" data-filter="programming">Programming & Libraries</button>
+          <button class="filter-btn skill-filter-btn" data-filter="visualization">BI & Visualization</button>
+          <button class="filter-btn skill-filter-btn" data-filter="database">Databases & Spreadsheets</button>
+          <button class="filter-btn skill-filter-btn" data-filter="concepts">Analytics Concepts</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <!-- Python -->
+          <div class="glass-card skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #38BDF8;">
+                <i data-lucide="terminal"></i>
+              </div>
+              <span class="skill-level-badge">Intermediate</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Programming Language</div>
+              <h3 class="skill-name">Python</h3>
+            </div>
+            <p class="skill-details-list">OOP concepts, modular scripts, logic structures, Library Management System development.</p>
+          </div>
+
+          <!-- SQL / MySQL -->
+          <div class="glass-card skill-card" data-category="database">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #06B6D4;">
+                <i data-lucide="database"></i>
+              </div>
+              <span class="skill-level-badge">Working Knowledge</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Database & Querying</div>
+              <h3 class="skill-name">MySQL / SQL</h3>
+            </div>
+            <p class="skill-details-list">Relational database schemas, joins, filtering, group by aggregations, data extraction.</p>
+          </div>
+
+          <!-- Pandas -->
+          <div class="glass-card skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #818CF8;">
+                <i data-lucide="table"></i>
+              </div>
+              <span class="skill-level-badge">Working Knowledge</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Python Library</div>
+              <h3 class="skill-name">Pandas</h3>
+            </div>
+            <p class="skill-details-list">DataFrames, series manipulation, indexing, handling missing values, data grouping & reshaping.</p>
+          </div>
+
+          <!-- NumPy -->
+          <div class="glass-card skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #60A5FA;">
+                <i data-lucide="binary"></i>
+              </div>
+              <span class="skill-level-badge">Working Knowledge</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Python Library</div>
+              <h3 class="skill-name">NumPy</h3>
+            </div>
+            <p class="skill-details-list">Multi-dimensional array structures, mathematical operations, vectorization, statistical functions.</p>
+          </div>
+
+          <!-- Power BI -->
+          <div class="glass-card skill-card" data-category="visualization">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #F59E0B;">
+                <i data-lucide="bar-chart"></i>
+              </div>
+              <span class="skill-level-badge">Working Knowledge</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Business Intelligence</div>
+              <h3 class="skill-name">Power BI</h3>
+            </div>
+            <p class="skill-details-list">Interactive visual reports, dashboard design, KPI cards, drill-down analytics, report publishing.</p>
+          </div>
+
+          <!-- Tableau -->
+          <div class="glass-card skill-card" data-category="visualization">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #EC4899;">
+                <i data-lucide="layout-dashboard"></i>
+              </div>
+              <span class="skill-level-badge">Working Knowledge</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Data Visualization</div>
+              <h3 class="skill-name">Tableau</h3>
+            </div>
+            <p class="skill-details-list">Worksheet generation, storytelling dashboards, custom charts, filters, trend visualization.</p>
+          </div>
+
+          <!-- Microsoft Excel -->
+          <div class="glass-card skill-card" data-category="database">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #10B981;">
+                <i data-lucide="file-spreadsheet"></i>
+              </div>
+              <span class="skill-level-badge">Intermediate (Certified)</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Spreadsheet & Modeling</div>
+              <h3 class="skill-name">Microsoft Excel</h3>
+            </div>
+            <p class="skill-details-list">Pivot Tables, VLOOKUP, XLOOKUP, Nested IFs, Conditional Formatting, Dynamic Charts.</p>
+          </div>
+
+          <!-- Exploratory Data Analysis (EDA) -->
+          <div class="glass-card skill-card" data-category="concepts">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #38BDF8;">
+                <i data-lucide="search"></i>
+              </div>
+              <span class="skill-level-badge">Applied</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Analytics Concept</div>
+              <h3 class="skill-name">Exploratory Data Analysis</h3>
+            </div>
+            <p class="skill-details-list">Univariate & bivariate exploration, pattern recognition, anomaly identification, hypothesis checking.</p>
+          </div>
+
+          <!-- Data Cleaning -->
+          <div class="glass-card skill-card" data-category="concepts">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #A855F7;">
+                <i data-lucide="filter"></i>
+              </div>
+              <span class="skill-level-badge">Applied</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Data Preprocessing</div>
+              <h3 class="skill-name">Data Cleaning</h3>
+            </div>
+            <p class="skill-details-list">Standardizing inconsistent formats, handling missing observations, duplicate removal, record hygiene.</p>
+          </div>
+
+          <!-- Statistics -->
+          <div class="glass-card skill-card" data-category="concepts">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #34D399;">
+                <i data-lucide="line-chart"></i>
+              </div>
+              <span class="skill-level-badge">Core Foundation</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Mathematical Discipline</div>
+              <h3 class="skill-name">Statistics</h3>
+            </div>
+            <p class="skill-details-list">Measures of central tendency, dispersion, variance, standard deviation, percentile distributions.</p>
+          </div>
+
+          <!-- Prompt Engineering -->
+          <div class="glass-card skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #FBBF24;">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <span class="skill-level-badge">Certified (2024)</span>
+            </div>
+            <div>
+              <div class="skill-category-label">AI & Workflow Acceleration</div>
+              <h3 class="skill-name">Prompt Engineering</h3>
+            </div>
+            <p class="skill-details-list">Certified by Great Learning. Utilizing LLMs for data code generation, regex building, and documentation.</p>
+          </div>
+
+          <!-- Project Management -->
+          <div class="glass-card skill-card" data-category="concepts">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap" style="color: #6366F1;">
+                <i data-lucide="briefcase"></i>
+              </div>
+              <span class="skill-level-badge">Certified (2024)</span>
+            </div>
+            <div>
+              <div class="skill-category-label">Management Discipline</div>
+              <h3 class="skill-name">Project Management</h3>
+            </div>
+            <p class="skill-details-list">Certified by Great Learning. Project lifecycle planning, milestone setting, cross-functional collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. DATA ANALYTICS & APPLIED PROJECTS
+         ========================================================================== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="folder-git-2" style="width: 14px; height: 14px;"></i> Applied Work</span>
+          <h2 class="section-title">Featured Analytics Projects</h2>
+          <p class="section-desc">End-to-end applications demonstrating programming, structured record tracking, and algorithm design.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Library Management System -->
+          <div class="glass-card project-card">
+            <div class="project-info">
+              <span class="project-meta-pill">
+                <i data-lucide="code"></i> Python • OOP • Algorithm Design
+              </span>
+              <h3 class="project-title">Library Management System</h3>
+              <p class="project-desc">
+                An end-to-end Python system engineered to maintain comprehensive book inventory, automate lending workflows, track member borrowing histories, and eliminate manual calculation errors.
+              </p>
+
+              <div class="project-breakdown">
+                <div class="breakdown-box">
+                  <div class="breakdown-title">
+                    <i data-lucide="alert-circle" style="width: 14px; height: 14px;"></i> Business Problem
+                  </div>
+                  <div class="breakdown-text">
+                    Manual book issue logs result in lost inventory, untracked overdue books, and inaccurate penalty calculations for prolonged borrowing.
+                  </div>
+                </div>
+
+                <div class="breakdown-box">
+                  <div class="breakdown-title">
+                    <i data-lucide="cpu" style="width: 14px; height: 14px;"></i> Solution Architecture
+                  </div>
+                  <div class="breakdown-text">
+                    Engineered object-oriented classes (`Book`, `Library`, `Member`) with dynamic validation, borrowing queues, and automated fee algorithms.
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python 3</span>
+                <span class="tech-tag">Object-Oriented Programming (OOP)</span>
+                <span class="tech-tag">Data Handling</span>
+                <span class="tech-tag">Automated Fee Calculation</span>
+                <span class="tech-tag">Modular Architecture</span>
+              </div>
+
+              <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                <a href="https://github.com/yogeshkumar0503" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">
+                  <i data-lucide="github"></i> View GitHub Repo
+                </a>
+              </div>
+            </div>
+
+            <!-- Visual Code Panel -->
+            <div class="project-visual-panel">
+              <div class="window-header">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+                <span class="window-title">library_system.py</span>
+              </div>
+              <pre class="code-snippet-body"><code><span class="code-keyword">class</span> <span class="code-fn">LibrarySystem</span>:
+    <span class="code-keyword">def</span> <span class="code-fn">__init__</span>(self):
+        self.inventory = {}
+        self.borrowed = {}
+        self.daily_rate = 5.0  <span class="code-comment"># Daily penalty in INR</span>
+
+    <span class="code-keyword">def</span> <span class="code-fn">calculate_rental_charge</span>(self, days_held, grace_period=14):
+        <span class="code-comment"># Automated fee calculation algorithm</span>
+        <span class="code-keyword">if</span> days_held &lt;= grace_period:
+            <span class="code-keyword">return</span> 0.0
+        overdue = days_held - grace_period
+        <span class="code-keyword">return</span> overdue * self.daily_rate
+
+    <span class="code-keyword">def</span> <span class="code-fn">return_book</span>(self, member_id, book_id, days):
+        charge = self.calculate_rental_charge(days)
+        self.inventory[book_id][<span class="code-str">'status'</span>] = <span class="code-str">'AVAILABLE'</span>
+        <span class="code-keyword">return</span> {<span class="code-str">'status'</span>: <span class="code-str">'Success'</span>, <span class="code-str">'fee'</span>: charge}</code></pre>
+            </div>
+          </div>
+
+          <!-- Project 2: Part V Management System -->
+          <div class="glass-card project-card">
+            <div class="project-info">
+              <span class="project-meta-pill" style="color: #34D399; background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
+                <i data-lucide="database"></i> Academic Data Management • Records & Scheduling
+              </span>
+              <h3 class="project-title">"PART V MANAGEMENT" Institutional System</h3>
+              <p class="project-desc">
+                An institutional management and event scheduling data system designed to record student activity participation, upload campus events, and manage venue allocation schedules efficiently.
+              </p>
+
+              <div class="project-breakdown">
+                <div class="breakdown-box">
+                  <div class="breakdown-title">
+                    <i data-lucide="alert-circle" style="width: 14px; height: 14px;"></i> Administrative Need
+                  </div>
+                  <div class="breakdown-text">
+                    Multiple simultaneous co-curricular and sports events created scheduling conflicts, duplicated venue bookings, and fragmented student attendance tracking.
+                  </div>
+                </div>
+
+                <div class="breakdown-box">
+                  <div class="breakdown-title">
+                    <i data-lucide="check-circle-2" style="width: 14px; height: 14px;"></i> System Outcome
+                  </div>
+                  <div class="breakdown-text">
+                    Unified student activity database that organized records for hundreds of students, enabled seamless venue scheduling, and prevented operational clashes.
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Student Record Database</span>
+                <span class="tech-tag">Venue Scheduling</span>
+                <span class="tech-tag">Event Coordination</span>
+                <span class="tech-tag">Data Organization</span>
+              </div>
+
+              <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                <span class="tag-mini font-mono" style="background: rgba(56, 189, 248, 0.1); border-color: rgba(56, 189, 248, 0.25); color: var(--accent-blue);">
+                  Applied Academic & Industrial Project
+                </span>
+              </div>
+            </div>
+
+            <!-- Visual Mockup Panel -->
+            <div class="project-visual-panel">
+              <div class="window-header">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+                <span class="window-title">part_v_schedule_query.sql</span>
+              </div>
+              <pre class="code-snippet-body"><code><span class="code-comment">-- Venue Schedule & Student Record Query</span>
+<span class="code-keyword">SELECT</span> 
+    e.event_id,
+    e.event_name,
+    v.venue_name,
+    COUNT(s.student_id) <span class="code-keyword">AS</span> total_participants,
+    e.start_time,
+    e.end_time
+<span class="code-keyword">FROM</span> events e
+<span class="code-keyword">JOIN</span> venues v <span class="code-keyword">ON</span> e.venue_id = v.id
+<span class="code-keyword">LEFT JOIN</span> student_attendance s <span class="code-keyword">ON</span> e.event_id = s.event_id
+<span class="code-keyword">GROUP BY</span> e.event_id
+<span class="code-keyword">ORDER BY</span> e.start_time <span class="code-keyword">ASC</span>;</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. DATA VISUALIZATION SHOWCASE
+         ========================================================================== -->
+    <section id="visualizations" style="background: rgba(13, 21, 39, 0.3);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="pie-chart" style="width: 14px; height: 14px;"></i> Interactive Dashboards</span>
+          <h2 class="section-title">Data Visualization & BI Showcase</h2>
+          <p class="section-desc">Interactive widgets demonstrating data distribution analysis, operational throughput tracking, and KPI monitoring.</p>
+        </div>
+
+        <div class="viz-showcase-container">
+          <!-- Chart Card 1 -->
+          <div class="glass-card chart-card">
+            <div class="chart-header">
+              <div>
+                <h3 class="chart-title">Library Inventory & Circulation Status</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Borrowing Trends by Category</span>
+              </div>
+              <span class="tag-mini font-mono" style="color: var(--accent-blue);">Python / Chart.js</span>
+            </div>
+
+            <div class="chart-canvas-wrapper">
+              <canvas id="libraryLoanChart"></canvas>
+            </div>
+
+            <div class="chart-disclaimer">
+              <i data-lucide="info" style="width: 14px; height: 14px; flex-shrink: 0;"></i>
+              Demonstrates inventory ratio metrics modeled from the Library Management System project.
+            </div>
+          </div>
+
+          <!-- Chart Card 2 -->
+          <div class="glass-card chart-card">
+            <div class="chart-header">
+              <div>
+                <h3 class="chart-title">Terminal Cargo & Tariff Compliance Tracking</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Weekly Logistics Operational Metric</span>
+              </div>
+              <span class="tag-mini font-mono" style="color: var(--accent-emerald);">Logistics / BI</span>
+            </div>
+
+            <div class="chart-canvas-wrapper">
+              <canvas id="logisticsChart"></canvas>
+            </div>
+
+            <div class="chart-disclaimer">
+              <i data-lucide="info" style="width: 14px; height: 14px; flex-shrink: 0;"></i>
+              Models Terminal Handling Charge (THC) tariff audit accuracy and container throughput from the DBGT internship domain.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. ANALYTICS WORKFLOW PIPELINE
+         ========================================================================== -->
+    <section id="workflow">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="git-merge" style="width: 14px; height: 14px;"></i> Methodology</span>
+          <h2 class="section-title">End-to-End Analytical Workflow</h2>
+          <p class="section-desc">The structured 7-stage framework I apply to take any data initiative from ambiguous question to business decision.</p>
+        </div>
+
+        <div class="workflow-timeline">
+          <div class="glass-card workflow-step">
+            <div class="step-num">01</div>
+            <h4 class="step-title">Understand</h4>
+            <p class="step-desc">Frame the core business problem, identify key performance indicators (KPIs), and define success metrics.</p>
+          </div>
+
+          <div class="glass-card workflow-step">
+            <div class="step-num">02</div>
+            <h4 class="step-title">Collect</h4>
+            <p class="step-desc">Extract raw data from relational databases (MySQL), spreadsheet files (Excel), or external sources.</p>
+          </div>
+
+          <div class="glass-card workflow-step">
+            <div class="step-num">03</div>
+            <h4 class="step-title">Clean</h4>
+            <p class="step-desc">Handle missing values, duplicate entries, data types, and anomalous records using Pandas & Excel.</p>
+          </div>
+
+          <div class="glass-card workflow-step">
+            <div class="step-num">04</div>
+            <h4 class="step-title">Explore (EDA)</h4>
+            <p class="step-desc">Uncover distributions, statistical variance, correlation coefficients, and trends with NumPy and summary statistics.</p>
+          </div>
+
+          <div class="glass-card workflow-step">
+            <div class="step-num">05</div>
+            <h4 class="step-title">Query & Model</h4>
+            <p class="step-desc">Write structured SQL queries, aggregations, and business logic calculations (e.g., tariff compliance, fees).</p>
+          </div>
+
+          <div class="glass-card workflow-step">
+            <div class="step-num">06</div>
+            <h4 class="step-title">Visualize</h4>
+            <p class="step-desc">Build intuitive, recruiter- and executive-ready dashboards in Power BI, Tableau, and Microsoft Excel.</p>
+          </div>
+
+          <div class="glass-card workflow-step">
+            <div class="step-num">07</div>
+            <h4 class="step-title">Communicate</h4>
+            <p class="step-desc">Present actionable business recommendations to stakeholders to drive strategic decision making.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. EXPERIENCE & INTERNSHIP
+         ========================================================================== -->
+    <section id="experience" style="background: rgba(13, 21, 39, 0.3);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="briefcase" style="width: 14px; height: 14px;"></i> Industry Experience</span>
+          <h2 class="section-title">Professional Summer Internship</h2>
+          <p class="section-desc">Practical industry immersion in logistics economics, tariff compliance, and operational workflow.</p>
+        </div>
+
+        <div style="max-width: 850px; margin: 0 auto;">
+          <div class="glass-card" style="padding: 2.5rem; border-left: 4px solid var(--accent-blue);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+              <div>
+                <span class="entry-year-badge">June 2024 – July 2024</span>
+                <h3 style="font-size: 1.6rem; margin-top: 0.25rem;">Finance & Operations Intern</h3>
+                <h4 style="font-size: 1.1rem; color: #CBD5E1; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
+                  <i data-lucide="building" style="width: 16px; height: 16px; color: var(--accent-blue);"></i>
+                  DBGT PVT LTD (Dakshin Bharat Gateway Terminal)
+                </h4>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+                  <i data-lucide="map-pin" style="width: 13px; height: 13px; display: inline;"></i> Thoothukudi, Tamil Nadu, India
+                </div>
+              </div>
+              <span class="tag-mini font-mono" style="background: rgba(56, 189, 248, 0.1); color: var(--accent-blue); border-color: rgba(56, 189, 248, 0.3);">
+                Port Logistics & Maritime Terminal
+              </span>
+            </div>
+
+            <ul class="entry-bullets" style="margin-top: 1.5rem; gap: 0.85rem; font-size: 0.95rem;">
+              <li>
+                <strong>Terminal Handling Charges (THC) Auditing:</strong> Examined and audited Terminal Handling Charges against central government statutory tariffs to ensure rigorous billing accuracy and compliance.
+              </li>
+              <li>
+                <strong>Logistics Operations Analysis:</strong> Acquired direct hands-on experience in container terminal operations, analyzing workflows for cargo handling efficiency, turnaround times, and supply chain continuity.
+              </li>
+              <li>
+                <strong>Data Cross-Verification:</strong> Cross-referenced physical cargo movement logs with financial tariff schedules, identifying reconciliation points and supporting operational transparency.
+              </li>
+            </ul>
+
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1.75rem;">
+              <span class="tag-mini">Government Tariff Compliance</span>
+              <span class="tag-mini">Terminal Handling Charges (THC)</span>
+              <span class="tag-mini">Supply Chain & Logistics</span>
+              <span class="tag-mini">Operational Workflow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. EDUCATION TIMELINE
+         ========================================================================== -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="graduation-cap" style="width: 14px; height: 14px;"></i> Academic Journey</span>
+          <h2 class="section-title">Educational Qualifications</h2>
+          <p class="section-desc">A structured combination of financial management, business intelligence, and computer applications.</p>
+        </div>
+
+        <div style="max-width: 850px; margin: 0 auto;" class="timeline-stack">
+          <!-- MBA -->
+          <div class="glass-card timeline-entry">
+            <span class="entry-year-badge">2023 – 2025</span>
+            <h3 class="entry-role">MBA (Finance & Analytics)</h3>
+            <div class="entry-org">
+              <i data-lucide="landmark" style="width: 16px; height: 16px; color: var(--accent-blue);"></i>
+              SRM University, Kattankulathur (KTR), Chennai
+            </div>
+            <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
+              Advanced postgraduate training combining corporate finance, business analytics, quantitative decision modeling, and managerial economics.
+            </p>
+            <div class="grade-badge">
+              <i data-lucide="award" style="width: 14px; height: 14px;"></i> CGPA: 8.6 / 10 (8.40)
+            </div>
+          </div>
+
+          <!-- B.Com CA -->
+          <div class="glass-card timeline-entry">
+            <span class="entry-year-badge">06/2020 – 05/2023</span>
+            <h3 class="entry-role">B.Com (Computer Applications)</h3>
+            <div class="entry-org">
+              <i data-lucide="landmark" style="width: 16px; height: 16px; color: var(--accent-indigo);"></i>
+              Thiagarajar College of Arts and Science, Madurai
+            </div>
+            <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
+              Undergraduate degree focusing on commerce fundamentals, accountancy, computerized financial systems, database basics, and software tools.
+            </p>
+            <div class="grade-badge">
+              <i data-lucide="award" style="width: 14px; height: 14px;"></i> CGPA: 8.1 / 10 (8.78% / 75.86%)
+            </div>
+          </div>
+
+          <!-- Higher Secondary -->
+          <div class="glass-card timeline-entry">
+            <span class="entry-year-badge">2020</span>
+            <h3 class="entry-role">Higher Secondary Certificate (XII State Board)</h3>
+            <div class="entry-org">
+              <i data-lucide="school" style="width: 16px; height: 16px; color: var(--accent-amber);"></i>
+              SRMS Matriculation Higher Secondary School, Sinthalakarai
+            </div>
+            <div class="grade-badge">
+              <i data-lucide="check" style="width: 14px; height: 14px;"></i> Percentage: 80.6%
+            </div>
+          </div>
+
+          <!-- Secondary -->
+          <div class="glass-card timeline-entry">
+            <span class="entry-year-badge">2018</span>
+            <h3 class="entry-role">Secondary School Certificate (X Central Board)</h3>
+            <div class="entry-org">
+              <i data-lucide="school" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
+              Sri Ambal Vidhyalaya, Vilathikulam, Thoothukudi
+            </div>
+            <div class="grade-badge" style="color: var(--text-secondary); border-color: rgba(255, 255, 255, 0.15); background: rgba(255, 255, 255, 0.05);">
+              Percentage: 52.4%
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         10. CERTIFICATIONS
+         ========================================================================== -->
+    <section id="certifications" style="background: rgba(13, 21, 39, 0.3);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="badge-check" style="width: 14px; height: 14px;"></i> Credentials</span>
+          <h2 class="section-title">Verified Certifications</h2>
+          <p class="section-desc">Specialized credentials across Data Analytics, Advanced Excel, AI Prompt Engineering, and Financial Foundations.</p>
+        </div>
+
+        <div class="filter-tabs-container">
+          <button class="filter-btn cert-filter-btn active" data-filter="all">All Certifications</button>
+          <button class="filter-btn cert-filter-btn" data-filter="analytics">Data Analytics & BI</button>
+          <button class="filter-btn cert-filter-btn" data-filter="productivity">Productivity & AI</button>
+          <button class="filter-btn cert-filter-btn" data-filter="finance">Finance & Commerce</button>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Login 360 -->
+          <div class="glass-card cert-card" data-category="analytics">
+            <div class="cert-top">
+              <div class="cert-icon-box">
+                <i data-lucide="database"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Data Analytics Comprehensive</h4>
+                <div class="cert-issuer">Login 360</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Curriculum: Python, MySQL, Pandas, NumPy, Power BI, Tableau, Excel, Statistics, EDA, Dashboard Development, Business Intelligence.
+            </p>
+            <div class="cert-footer">
+              <span>Full Analytics Stack</span>
+              <span class="tag-mini">Certified</span>
+            </div>
+          </div>
+
+          <!-- FIIT Advance Excel -->
+          <div class="glass-card cert-card" data-category="analytics">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1);">
+                <i data-lucide="file-spreadsheet"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Advance Excel</h4>
+                <div class="cert-issuer">FIIT • 2024</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Mastery in advanced lookup formulas (XLOOKUP, VLOOKUP), Pivot Tables, dynamic charts, data modeling, and automated financial spreadsheets.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2024</span>
+              <span class="tag-mini">FIIT</span>
+            </div>
+          </div>
+
+          <!-- Great Learning Prompt Engineering -->
+          <div class="glass-card cert-card" data-category="productivity">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: var(--accent-blue); background: rgba(56, 189, 248, 0.1);">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Prompt Engineering</h4>
+                <div class="cert-issuer">Great Learning • 2024</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Structured prompt crafting, LLM chaining, AI-augmented analytical code generation, and automated documentation.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2024</span>
+              <span class="tag-mini">Great Learning</span>
+            </div>
+          </div>
+
+          <!-- Great Learning Project Management -->
+          <div class="glass-card cert-card" data-category="productivity">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: var(--accent-indigo); background: rgba(99, 102, 241, 0.1);">
+                <i data-lucide="check-square"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Project Management</h4>
+                <div class="cert-issuer">Great Learning • 2024</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Project scope definition, scheduling milestones, resource allocation principles, and workflow risk mitigation.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2024</span>
+              <span class="tag-mini">Great Learning</span>
+            </div>
+          </div>
+
+          <!-- Forage Investment Banking -->
+          <div class="glass-card cert-card" data-category="finance">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: var(--accent-cyan); background: rgba(6, 182, 212, 0.1);">
+                <i data-lucide="trending-up"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Investment Banking</h4>
+                <div class="cert-issuer">Forage • 2024</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Financial statement fundamentals, valuation metrics, capital market structures, and financial simulation cases.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2024</span>
+              <span class="tag-mini">Forage</span>
+            </div>
+          </div>
+
+          <!-- Tally Prime -->
+          <div class="glass-card cert-card" data-category="finance">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: #EC4899; background: rgba(236, 72, 153, 0.1);">
+                <i data-lucide="calculator"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Tally Prime</h4>
+                <div class="cert-issuer">TEPL Tally Education • 2023</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Computerized accounting, ledger maintenance, GST ledger postings, reconciliation, and balance sheet extraction.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2023</span>
+              <span class="tag-mini">TEPL</span>
+            </div>
+          </div>
+
+          <!-- CMA Foundation -->
+          <div class="glass-card cert-card" data-category="finance">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: #F59E0B; background: rgba(245, 158, 11, 0.1);">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">CMA Foundation</h4>
+                <div class="cert-issuer">ICAI / Cost Accounting • 2022</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Core foundations in cost accounting, financial arithmetic, economics, commercial regulations, and management basics.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2022</span>
+              <span class="tag-mini">CMA Foundation</span>
+            </div>
+          </div>
+
+          <!-- Personality & Communication -->
+          <div class="glass-card cert-card" data-category="productivity">
+            <div class="cert-top">
+              <div class="cert-icon-box" style="color: #A855F7; background: rgba(168, 85, 247, 0.1);">
+                <i data-lucide="message-square"></i>
+              </div>
+              <div>
+                <h4 class="cert-title">Personality Development & Communication</h4>
+                <div class="cert-issuer">Skill Power • 2022</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Professional verbal and written communication, stakeholder presentation skills, and workplace interpersonal dynamics.
+            </p>
+            <div class="cert-footer">
+              <span>Issued: 2022</span>
+              <span class="tag-mini">Skill Power</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         11. LEADERSHIP & ACHIEVEMENTS
+         ========================================================================== -->
+    <section id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="trophy" style="width: 14px; height: 14px;"></i> Impact & Responsibility</span>
+          <h2 class="section-title">Leadership & Campus Achievements</h2>
+          <p class="section-desc">Demonstrated execution, organization of large-scale student bodies, and community contribution.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon">
+              <i data-lucide="flag"></i>
+            </div>
+            <h3 class="achievement-title">Sports Event Organizer (1,000+ Students)</h3>
+            <p class="achievement-desc">
+              Organized an intra-college sports event engaging over 1,000 participating students. Managed fixture schedules, venue logistics, score aggregations, and committee teams.
+            </p>
+            <div class="tag-mini font-mono" style="align-self: flex-start;">1,000+ Participants</div>
+          </div>
+
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon" style="color: var(--accent-blue); background: rgba(56, 189, 248, 0.12);">
+              <i data-lucide="music"></i>
+            </div>
+            <h3 class="achievement-title">Cultural Event Coordinator (700+ Students)</h3>
+            <p class="achievement-desc">
+              Coordinated department cultural festival with 700+ active student participants. Managed performance line-ups, audience seating, and faculty coordination.
+            </p>
+            <div class="tag-mini font-mono" style="align-self: flex-start;">700+ Participants</div>
+          </div>
+
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.12);">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 class="achievement-title">Placement Representative & Organizer</h3>
+            <p class="achievement-desc">
+              Elected Placement Representative representing student section, liaising directly with SRM placement cell, organizing drives, and serving as Entrepreneurship Club Organizer (2023-2024).
+            </p>
+            <div class="tag-mini font-mono" style="align-self: flex-start;">Section Representative</div>
+          </div>
+
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon" style="color: var(--accent-amber); background: rgba(245, 158, 11, 0.12);">
+              <i data-lucide="medal"></i>
+            </div>
+            <h3 class="achievement-title">Volleyball Runner-up & Sports Meet</h3>
+            <p class="achievement-desc">
+              Finished as Volleyball Match Runner in the intra-college sports meet and actively co-organized the MPL sports event in 2023.
+            </p>
+            <div class="tag-mini font-mono" style="align-self: flex-start;">Tournament Runner-Up</div>
+          </div>
+
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon" style="color: #EF4444; background: rgba(239, 68, 68, 0.12);">
+              <i data-lucide="heart"></i>
+            </div>
+            <h3 class="achievement-title">Social Service & 4+ Blood Donations</h3>
+            <p class="achievement-desc">
+              Participated in over four voluntary blood donation camps during undergraduate studies; actively collaborated with Social Service League & Rotaract Club.
+            </p>
+            <div class="tag-mini font-mono" style="align-self: flex-start;">Community Service</div>
+          </div>
+
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon" style="color: #6366F1; background: rgba(99, 102, 241, 0.12);">
+              <i data-lucide="book-open"></i>
+            </div>
+            <h3 class="achievement-title">Creative Writing & Analytical Interests</h3>
+            <p class="achievement-desc">
+              Passionate writer, poet, and lyricist; enthusiastic Rubik's cube solver with a natural affinity for geometric patterns, logic puzzles, and structured thinking.
+            </p>
+            <div class="tag-mini font-mono" style="align-self: flex-start;">Logic & Problem Solving</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         12. RESUME CTA SECTION
+         ========================================================================== -->
+    <section id="resume-cta">
+      <div class="container">
+        <div class="glass-card resume-cta-card">
+          <h2 class="cta-heading">Review My Complete Resume</h2>
+          <p class="cta-subtext">
+            Looking for a dedicated Data Analyst with verifiable skills, academic excellence, and business acumen? Download my official resume or view it online right now.
+          </p>
+          <div class="cta-buttons">
+            <a href="assets/docs/Yogesh_Kumar_Resume.pdf" download="S_Yogesh_Kumar_Resume.pdf" class="btn btn-primary" id="ctaDownloadBtn">
+              <i data-lucide="download"></i> Download Verified Resume (PDF)
+            </a>
+            <button class="btn btn-secondary open-resume-modal" id="ctaPreviewBtn">
+              <i data-lucide="eye"></i> Interactive PDF Preview
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         13. CONTACT SECTION
+         ========================================================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i data-lucide="send" style="width: 14px; height: 14px;"></i> Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">Available for immediate hiring, entry-level Data Analyst roles, and analytics internships.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Cards -->
+          <div class="contact-cards-stack">
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon-box">
+                <i data-lucide="mail"></i>
+              </div>
+              <div>
+                <div class="contact-label">Email Address</div>
+                <a href="mailto:yogeshkumar18503@gmail.com" class="contact-value">yogeshkumar18503@gmail.com</a>
+                <div style="font-size: 0.775rem; color: var(--text-muted);">Alt: ys4191@srmist.edu.in</div>
+              </div>
+            </div>
+
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon-box" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1);">
+                <i data-lucide="phone"></i>
+              </div>
+              <div>
+                <div class="contact-label">Phone & WhatsApp</div>
+                <a href="tel:6381318721" class="contact-value">+91 6381318721</a>
+              </div>
+            </div>
+
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon-box" style="color: var(--accent-blue); background: rgba(56, 189, 248, 0.1);">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <div class="contact-label">Current Location</div>
+                <div class="contact-value">Chennai, Tamil Nadu, India</div>
+                <div style="font-size: 0.775rem; color: var(--text-muted);">Hometown: Vilathikulam, Thoothukudi</div>
+              </div>
+            </div>
+
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon-box" style="color: #6366F1; background: rgba(99, 102, 241, 0.1);">
+                <i data-lucide="linkedin"></i>
+              </div>
+              <div>
+                <div class="contact-label">LinkedIn Profile</div>
+                <a href="https://www.linkedin.com/in/yogesh-kumar-734a56238" target="_blank" rel="noopener noreferrer" class="contact-value" style="color: var(--accent-blue);">
+                  linkedin.com/in/yogesh-kumar-734a56238
+                </a>
+              </div>
+            </div>
+
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon-box" style="color: #A855F7; background: rgba(168, 85, 247, 0.1);">
+                <i data-lucide="github"></i>
+              </div>
+              <div>
+                <div class="contact-label">GitHub Repository</div>
+                <a href="https://github.com/yogeshkumar0503" target="_blank" rel="noopener noreferrer" class="contact-value" style="color: var(--accent-blue);">
+                  github.com/yogeshkumar0503
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="glass-card contact-form">
+            <h3 style="font-size: 1.35rem; font-weight: 700;">Send Direct Message</h3>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+              Have an opening or opportunity? Send a message directly to Yogesh Kumar.
+            </p>
+
+            <div id="formStatusMsg" class="form-status-msg"></div>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. Talent Acquisition / Hiring Manager" required />
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Email Address</label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="name@company.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message / Opportunity Details</label>
+                <textarea id="senderMessage" class="form-textarea" placeholder="Describe the role or schedule an interview..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="align-self: flex-start; margin-top: 0.5rem;" id="submitMessageBtn">
+                <i data-lucide="send"></i> Dispatch Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       14. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 0.4rem;">
+            <span class="brand-badge">YK</span>
+            <span>S. YOGESH KUMAR</span>
+          </div>
+          <p class="footer-credits">
+            Data Analyst & BI Specialist • MBA (Finance & Analytics), SRM University
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 1rem;">
+          <a href="https://www.linkedin.com/in/yogesh-kumar-734a56238" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="https://github.com/yogeshkumar0503" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="mailto:yogeshkumar18503@gmail.com" class="social-icon-btn" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 S. Yogesh Kumar. Built with Vanilla CSS, JS, Chart.js & a Passion for Data Analytics.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#hero" style="color: var(--text-muted);">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Resume Preview Modal -->
+  <div id="resumeModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div id="resumeModalTitle" class="modal-title">
+          <i data-lucide="file-check" style="color: var(--accent-blue);"></i>
+          <span>Official Resume - S. Yogesh Kumar</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <a href="assets/docs/Yogesh_Kumar_Resume.pdf" download="S_Yogesh_Kumar_Resume.pdf" class="btn btn-primary" style="padding: 0.35rem 0.85rem; font-size: 0.8rem;">
+            <i data-lucide="download" style="width: 14px; height: 14px;"></i> Download PDF
+          </a>
+          <button class="modal-close-btn" aria-label="Close Resume Preview">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe src="assets/docs/Yogesh_Kumar_Resume.pdf" title="Resume Document Viewer"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+  <!-- Main Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

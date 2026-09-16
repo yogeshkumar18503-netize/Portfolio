@@ -4,8 +4,8 @@
   "private": true,
   "description": "Production Data Analyst Portfolio - S. Yogesh Kumar",
   "scripts": {
-    "build": "echo 'Static build complete'",
-    "start": "serve .",
+    "build": "node -e \"const fs = require('fs'); fs.mkdirSync('public', {recursive: true}); fs.copyFileSync('index.html', 'public/index.html'); fs.cpSync('assets', 'public/assets', {recursive: true}); console.log('Build output ready in public/');\"",
+    "start": "serve public",
     "serve": "python -m http.server 5173"
   }
 }
